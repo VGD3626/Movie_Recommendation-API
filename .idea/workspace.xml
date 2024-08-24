@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5768c31a-5f2d-49d8-a5f3-920e6bed8063" name="Changes" comment="--" />
+    <list default="true" id="5768c31a-5f2d-49d8-a5f3-920e6bed8063" name="Changes" comment="--">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,13 +38,16 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2kVgrciPZDwSiyW5aL9wekNhW1C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Flask server.Movie_Recommender.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -98,6 +104,8 @@
       <workItem from="1723720437609" duration="125000" />
       <workItem from="1723737783755" duration="341000" />
       <workItem from="1723894844796" duration="9766000" />
+      <workItem from="1724484145108" duration="1400000" />
+      <workItem from="1724486056048" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -131,19 +139,44 @@
       <option name="project" value="LOCAL" />
       <updated>1723905547840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="--">
+      <option name="closed" value="true" />
+      <created>1724484272386</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724484272386</updated>
+    </task>
+    <task id="LOCAL-00006" summary="--">
+      <option name="closed" value="true" />
+      <created>1724484291789</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724484291789</updated>
+    </task>
+    <task id="LOCAL-00007" summary="--">
+      <option name="closed" value="true" />
+      <created>1724484387311</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724484387311</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="added reqs.txt" />
     <MESSAGE value="--" />
     <option name="LAST_COMMIT_MESSAGE" value="--" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Movie_Recommender$Movie_Recommender.coverage" NAME="Movie_Recommender Coverage Results" MODIFIED="1723903615174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Movie_Recommender$Movie_Recommender.coverage" NAME="Movie_Recommender Coverage Results" MODIFIED="1724485514054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

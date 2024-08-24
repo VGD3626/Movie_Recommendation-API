@@ -16,7 +16,7 @@ def movie_recommender(movie_title):
     global movies
 
     # Data Pre-processing
-    movies['release_year'] = pd.to_datetime(movies['release_date']).dt.year
+    movies['release_year'] = pd.to_datetime(movies.loc['release_date']).dt.year
     movies['title'] = movies['title'].str.lower()
 
     selected_features = ['id', 'title', 'popularity', 'vote_average', 'vote_count', 'genres', 'cast', 'director',
