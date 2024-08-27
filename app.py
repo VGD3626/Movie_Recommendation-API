@@ -16,12 +16,10 @@ def movie_recommender(movie_title):
     global movies
 
     # Data Pre-processing
-    movies['release_year'] = pd.to_datetime(movies.loc['release_date']).dt.year
     movies['title'] = movies['title'].str.lower()
 
     selected_features = ['id', 'title', 'popularity', 'vote_average', 'vote_count', 'genres', 'cast', 'director',
-                         'keywords', 'overview',
-                         'release_year', 'tagline']
+                         'keywords', 'overview', 'tagline']
     movies = movies[selected_features]
 
     imputer = SimpleImputer(missing_values=np.nan, strategy='constant', fill_value="")
@@ -59,17 +57,17 @@ def movie_recommender(movie_title):
 
     recommendations = recommend_similar_movies(movie_title)
     v=[]
-    for movie in recommendations:
-        movie_id = int(movies[movies['title'] == movie]['id'])
-        url = f"https://movies-api14.p.rapidapi.com/movie/{movie_id}"
-        headers = {
-            "x-rapidapi-key": "e56d68f485msh320b2cb83f8dedep1ca4d7jsnb4259afc8402",
-            "x-rapidapi-host": "movies-api14.p.rapidapi.com"
-        }
-        v.append(requests.get(url, headers=headers).json())
-
-    print(v)
+    if recommendations:
+        for movie in recommendations:
+            movie_id = int(movies[movies['title'] == movie]['id'])
+            url = f"https://movies-api14.p.rapidapi.com/movie/{movie_id}"
+            headers = {
+                "x-rapidapi-key": "e56d68f485msh320b2cb83f8dedep1ca4d7jsnb4259afc8402",
+                "x-rapidapi-host": "movies-api14.p.rapidapi.com"
+            }
+            v.append(requests.get(url, headers=headers).json())
     return v
+
 
 
 if __name__ == '__main__':
