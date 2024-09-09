@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5768c31a-5f2d-49d8-a5f3-920e6bed8063" name="Changes" comment="--">
+    <list default="true" id="5768c31a-5f2d-49d8-a5f3-920e6bed8063" name="Changes" comment="solved server overloaded err">
+      <change afterPath="$PROJECT_DIR$/clean_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cleaned_movie_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie_vectors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -49,8 +53,11 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Flask server.Movie_Recommender.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clean_data.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Pretty-Groovy.txt.groovy&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Pretty-Groovy.txt.groovy&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Vrund/PycharmProjects/Movie_Recommender&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -107,6 +114,9 @@
       <workItem from="1724484145108" duration="1400000" />
       <workItem from="1724486056048" duration="3905000" />
       <workItem from="1724497883574" duration="1221000" />
+      <workItem from="1724772428028" duration="6446000" />
+      <workItem from="1724779454168" duration="645000" />
+      <workItem from="1725809766791" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -172,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724486165140</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="solved server overloaded err">
+      <option name="closed" value="true" />
+      <created>1724772480069</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724772480069</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,9 +201,11 @@
     <MESSAGE value="first" />
     <MESSAGE value="added reqs.txt" />
     <MESSAGE value="--" />
-    <option name="LAST_COMMIT_MESSAGE" value="--" />
+    <MESSAGE value="solved server overloaded err" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved server overloaded err" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Movie_Recommender$Movie_Recommender.coverage" NAME="Movie_Recommender Coverage Results" MODIFIED="1724501056001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Movie_Recommender$Movie_Recommender.coverage" NAME="Movie_Recommender Coverage Results" MODIFIED="1725809800048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Movie_Recommender$clean_data.coverage" NAME="clean_data Coverage Results" MODIFIED="1724779603768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
